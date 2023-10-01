@@ -1,5 +1,7 @@
 {
     "version": 2,
+    "framework": "node",
+    "name": "mern-chat-app",
     "builds": [
         {
             "src": "server.js",
