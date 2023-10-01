@@ -1,17 +1,16 @@
 {
     "version": 2,
     "framework": "node",
-    "name": "mern-chat-app",
     "builds": [
         {
-            "src": "server.js",
+            "src": "*.js",
             "use": "@vercel/node"
         }
     ],
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "/server.js"
+            "dest": "/"
         }
     ]
 }
